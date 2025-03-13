@@ -17,10 +17,15 @@ body {
 }
 
 .header-logo-finish {
+  font-family: "Raleway" sans-serif;
   color: #2e2f42;
 }
 
 .header-list a:hover {
+  color: #404bbf;
+}
+
+.header-list a:focus {
   color: #404bbf;
 }
 
@@ -33,6 +38,10 @@ body {
   line-height: 1.5;
 }
 
+.adress-navigation {
+  font-style: normal;
+}
+
 .address-info {
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -41,6 +50,10 @@ body {
 }
 
 .header-address a:hover {
+  color: #404bbf;
+}
+
+.header-address a:focus {
   color: #404bbf;
 }
 
@@ -129,6 +142,7 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
@@ -156,6 +170,7 @@ ul {
 }
 
 .footer-logo-finish {
+  font-family: "Raleway" sans-serif;
   color: #f4f4fd;
 }
 
